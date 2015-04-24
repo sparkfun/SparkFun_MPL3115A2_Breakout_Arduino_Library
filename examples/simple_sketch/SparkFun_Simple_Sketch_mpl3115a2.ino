@@ -13,7 +13,7 @@ Distributed as-is; no warranty is given.
 
 // PIR example
 #include <Wire.h>
-#include <MPL3115A2.h>
+#include <SparkFunMPL3115A2Breakout.h>
 #include <SoftwareSerial.h>
 
 SoftwareSerial display(3, 2);

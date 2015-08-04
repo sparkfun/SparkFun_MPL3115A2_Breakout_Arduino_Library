@@ -20,6 +20,8 @@
 
 #include <Wire.h>
 
+#pragma once
+
 #define MPL3115A2_ADDRESS 0x60 // Unshifted 7-bit I2C address for sensor
 
 #define STATUS     0x00

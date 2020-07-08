@@ -1,18 +1,18 @@
-/* 
+/*
  MPL3115A2 Barometric Pressure Sensor Library
  By: Nathan Seidle
  SparkFun Electronics
  Date: September 24th, 2013
  License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
- 
+
  Get pressure, altitude and temperature from the MPL3115A2 sensor.
- 
+
  Updated by PaulZC: October 19th, 2019
- 
+
  */
- 
-#ifndef _SPARKFUN_MPL3115A2_H_ 
-#define _SPARKFUN_MPL3115A2_H_ 
+
+#ifndef _SPARKFUN_MPL3115A2_H_
+#define _SPARKFUN_MPL3115A2_H_
 
 #include <Arduino.h>
 
@@ -21,7 +21,7 @@
 // Define MPL3115A2 registers
 enum mpl3115a2_regs
 {
-	STATUS     = 0x00,
+	MPLSTATUS     = 0x00,
 	OUT_P_MSB  = 0x01,
 	OUT_P_CSB  = 0x02,
 	OUT_P_LSB  = 0x03,
@@ -66,7 +66,7 @@ enum mpl3115a2_regs
 	CTRL_REG5  = 0x2A,
 	OFF_P      = 0x2B,
 	OFF_T      = 0x2C,
-	OFF_H      = 0x2D	
+	OFF_H      = 0x2D
 };
 
 
